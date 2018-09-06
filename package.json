@@ -2,6 +2,15 @@
   "name": "test-nuxt",
   "version": "1.0.0",
   "description": "Тестовый проект на Nuxt",
+  "scripts": {
+    "serve": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint .",
+    "lint:check": "eslint --print-config . | eslint-config-prettier-check",
+    "lint:fix": "eslint --fix ."
+  },
   "repository": "https://github.com/newbornfrontender/test-nuxt.git",
   "author": "Infant Frontender <newbornfrontender@gmail.com>",
   "license": "MIT",
