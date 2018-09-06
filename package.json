@@ -4,5 +4,8 @@
   "description": "Тестовый проект на Nuxt",
   "repository": "https://github.com/newbornfrontender/test-nuxt.git",
   "author": "Infant Frontender <newbornfrontender@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "nuxt": "^1.4.2"
+  }
 }
