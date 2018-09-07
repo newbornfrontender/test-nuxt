@@ -14,5 +14,9 @@
   ],
   "plugins": [
     "vue"
-  ]
+  ],
+  "rules": {
+    "vue/v-bind-style": "warn",
+    "vue/v-on-style": "warn"
+  }
 }
