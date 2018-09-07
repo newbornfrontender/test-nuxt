@@ -14,6 +14,7 @@
 export default {
   data: () => ({
     msg: 'Message',
+    /* prettier-ignore */
     list: [{
       text: '1'
     }, {
