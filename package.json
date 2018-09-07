@@ -7,9 +7,9 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "lint": "eslint .",
+    "lint": "eslint --ext js,jsx,vue .",
     "lint:check": "eslint --print-config . | eslint-config-prettier-check",
-    "lint:fix": "eslint --fix ."
+    "lint:fix": "eslint --ext js,jsx,vue --fix ."
   },
   "repository": "https://github.com/newbornfrontender/test-nuxt.git",
   "author": "Infant Frontender <newbornfrontender@gmail.com>",
