@@ -1,6 +1,15 @@
 module.exports = {
-  mode: 'universal',
-  analyze: true,
+  build: {
+    analyze: true,
+    extractCSS: true,
+    parallel: true,
+    cache: true,
+    postcss: {
+      preset: {
+        stage: 0
+      }
+    }
+  },
   head: {
     title: 'Test',
     /* prettier-ignore */
@@ -16,7 +25,14 @@ module.exports = {
     }]
   },
   loading: {
-    color: '#000'
+    color: 'green',
+    failedColor: 'red',
+    height: '3px',
+    duration: 4500
   },
-  modules: ['~/modules/vue-loader', '~/modules/eslint-loader']
+  modules: ['~/modules/vue-loader', '~/modules/eslint-loader'],
+  router: {
+    linkActiveClass: 'linkActive',
+    linkExactActiveClass: 'linkActiveExact'
+  }
 }
