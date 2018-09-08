@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div>{{ msg }}</div>
+    <h1 v-bind:class="[$style.title, $style.titleBig]">{{ msg }}</h1>
     <ul>
       <li
         v-for="item of list"
@@ -23,3 +23,13 @@ export default {
   })
 }
 </script>
+
+<style module>
+.title {
+  color: red;
+}
+
+.titleBig {
+  font-size: 30px;
+}
+</style>
