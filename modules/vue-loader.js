@@ -5,7 +5,7 @@ module.exports = function() {
     )
 
     vueLoader.options.cssModules = {
-      localIdentName: '[path]-[name]--[local]__[hash:base64:5]_',
+      localIdentName: '[path]-[name]__[local]_[hash:base64:5]',
       camelCase: 'only'
     }
   })
