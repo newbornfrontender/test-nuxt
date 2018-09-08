@@ -25,8 +25,8 @@ module.exports = {
     }]
   },
   loading: {
-    color: 'green',
-    failedColor: 'red',
+    color: 'blue',
+    failedColor: 'orange',
     height: '3px',
     duration: 4500
   },
