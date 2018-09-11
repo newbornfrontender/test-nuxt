@@ -3,7 +3,7 @@ module.exports = {
     analyze: true,
     extractCSS: true,
     parallel: true,
-    cache: true,
+    // cache: true,
     postcss: {
       preset: {
         stage: 0
@@ -27,8 +27,7 @@ module.exports = {
   loading: {
     color: 'blue',
     failedColor: 'orange',
-    height: '3px',
-    duration: 4500
+    height: '3px'
   },
   modules: ['~/modules/vue-loader', '~/modules/eslint-loader'],
   router: {
