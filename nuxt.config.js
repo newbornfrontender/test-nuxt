@@ -2,11 +2,11 @@ module.exports = {
   build: {
     analyze: true,
     extractCSS: true,
-    parallel: true,
+    // parallel: true,
     // cache: true,
     postcss: {
       preset: {
-        stage: 0
+        stage: 1
       }
     }
   },
