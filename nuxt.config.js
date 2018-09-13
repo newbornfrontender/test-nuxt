@@ -1,33 +1,20 @@
 module.exports = {
   build: {
     analyze: true,
-    extractCSS: true,
-    // parallel: true,
-    // cache: true,
-    postcss: {
-      preset: {
-        stage: 1
-      }
-    }
+    extractCSS: true
   },
   head: {
-    title: 'Test',
     /* prettier-ignore */
     meta: [{
       charset: 'utf-8'
     }, {
       name: 'viewport',
-      content: 'width=device-width, initial-scale=1'
-    }, {
-      hid: 'main-description',
-      name: 'description',
-      content: 'Test'
+      content: 'width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes'
     }]
   },
   loading: {
     color: 'blue',
-    failedColor: 'orange',
-    height: '3px'
+    failedColor: 'orange'
   },
   modules: ['~/modules/vue-loader', '~/modules/eslint-loader'],
   router: {
