@@ -1,7 +1,14 @@
+const StylelintWebpackPlugin = require('stylelint-webpack-plugin')
+
 module.exports = {
   build: {
     analyze: true,
-    extractCSS: true
+    extractCSS: true,
+    plugins: [
+      new StylelintWebpackPlugin({
+        files: ['**/*.{vue,html,css}']
+      })
+    ]
   },
   head: {
     /* prettier-ignore */
@@ -16,7 +23,7 @@ module.exports = {
     color: 'blue',
     failedColor: 'orange'
   },
-  modules: ['~/modules/vue-loader', '~/modules/eslint-loader'],
+  modules: ['~/modules/loaders/vue-loader', '~/modules/loaders/eslint-loader'],
   router: {
     linkActiveClass: 'linkActive',
     linkExactActiveClass: 'linkActiveExact'
