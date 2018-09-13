@@ -7,12 +7,12 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "stylelint": "stylelint **/*.{css,vue}",
+    "stylelint": "stylelint **/*.{vue,html,css}",
     "stylelint:check": "stylelint-config-prettier-check",
-    "stylelint:fix": "stylelint --fix **/*.{css,vue}",
-    "eslint": "eslint **/*.{js,jsx,vue}",
+    "stylelint:fix": "stylelint --fix **/*.{vue,html,css}",
+    "eslint": "eslint **/*.{vue,js,jsx}",
     "eslint:check": "eslint --print-config . | eslint-config-prettier-check",
-    "eslint:fix": "eslint --fix **/*.{js,jsx,vue}"
+    "eslint:fix": "eslint --fix **/*.{vue,js,jsx}"
   },
   "repository": "https://github.com/newbornfrontender/test-nuxt.git",
   "author": "Infant Frontender <newbornfrontender@gmail.com>",
