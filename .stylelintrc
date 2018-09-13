@@ -1,5 +1,10 @@
 {
   "extends": [
+    "stylelint-prettier/recommended",
     "stylelint-config-prettier"
-  ]
+  ],
+  "rules": {
+    "max-empty-lines": 2,
+    "no-missing-end-of-source-newline": true
+  }
 }
