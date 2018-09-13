@@ -1,5 +1,5 @@
 module.exports = function() {
-  this.extendBuild((ctx, config) => {
+  this.extendBuild((config, ctx) => {
     if (ctx.isDev && ctx.isClient) {
       config.module.rules.push({
         enforce: 'pre',
