@@ -7,9 +7,9 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "stylelint": "stylelint **/*.{vue,html,css}",
+    "stylelint": "stylelint **/*.{vue,css}",
     "stylelint:check": "stylelint-config-prettier-check",
-    "stylelint:fix": "stylelint --fix **/*.{vue,html,css}",
+    "stylelint:fix": "stylelint --fix **/*.{vue,css}",
     "eslint": "eslint **/*.{vue,js,jsx}",
     "eslint:check": "eslint --print-config . | eslint-config-prettier-check",
     "eslint:fix": "eslint --fix **/*.{vue,js,jsx}"
@@ -31,6 +31,7 @@
     "prettier": "^1.14.2",
     "stylelint": "^9.5.0",
     "stylelint-config-prettier": "^4.0.0",
+    "stylelint-prettier": "^1.0.1",
     "stylelint-webpack-plugin": "^0.10.5"
   }
 }
