@@ -9,7 +9,7 @@
     "generate": "nuxt generate",
     "stylelint": "stylelint **/*.{vue,css}",
     "stylelint:check": "stylelint-config-prettier-check",
-    "stylelint:fix": "stylelint --fix **/*.{vue,css}",
+    "stylelint:fix": "stylelint --fix **/*.css",
     "eslint": "eslint **/*.{vue,js,jsx}",
     "eslint:check": "eslint --print-config . | eslint-config-prettier-check",
     "eslint:fix": "eslint --fix **/*.{vue,js,jsx}"
@@ -27,9 +27,7 @@
     "eslint-loader": "^2.1.0",
     "eslint-plugin-prettier": "^2.6.2",
     "eslint-plugin-vue": "^5.0.0-beta.3",
-    "postcss-html": "^0.33.0",
     "postcss-nested": "^4.1.0",
-    "postcss-syntax": "^0.33.0",
     "prettier": "^1.14.2",
     "stylelint": "^9.5.0",
     "stylelint-config-prettier": "^4.0.0",
