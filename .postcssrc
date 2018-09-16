@@ -1,5 +1,9 @@
 {
   "plugins": {
+    "postcss-syntax": {
+      test: /\.vue$/i,
+      extract: 'html'
+    },
     "postcss-nested": true
   }
 }
