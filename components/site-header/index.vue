@@ -17,10 +17,6 @@ export default {
 </script>
 
 <style lang="postcss" module>
-.test {
-color: red
-}
-
 .logo {
   background-color: green;
 
