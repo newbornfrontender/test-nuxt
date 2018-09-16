@@ -12,10 +12,7 @@ module.exports = {
       content: 'width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes'
     }]
   },
-  loading: {
-    color: 'blue',
-    failedColor: 'orange'
-  },
+  loading: '~/components/loading.vue',
   modules: ['~/modules/loaders/vue-loader'],
   router: {
     linkActiveClass: 'linkActive',

@@ -21,6 +21,9 @@ export default {
     }, {
       title: 'Тест',
       path: '/test'
+    }, {
+      title: 'Загрузчик',
+      path: '/load'
     }]
   })
 }
