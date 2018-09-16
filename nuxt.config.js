@@ -16,7 +16,7 @@ module.exports = {
     color: 'blue',
     failedColor: 'orange'
   },
-  modules: ['~/modules/loaders/vue-loader', '~/modules/loaders/eslint-loader'],
+  modules: ['~/modules/loaders/vue-loader'],
   router: {
     linkActiveClass: 'linkActive',
     linkExactActiveClass: 'linkActiveExact'
