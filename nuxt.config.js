@@ -1,14 +1,7 @@
-const StylelintWebpackPlugin = require('stylelint-webpack-plugin')
-
 module.exports = {
   build: {
     analyze: true,
-    extractCSS: true,
-    plugins: [
-      new StylelintWebpackPlugin({
-        files: ['**/*.{vue,html,css}']
-      })
-    ]
+    extractCSS: true
   },
   head: {
     /* prettier-ignore */
