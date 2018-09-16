@@ -1,7 +1,7 @@
 <template>
   <div v-bind:class="$style.container">
     <p>Привет {{ name }}!</p>
-    <button v-bind:click="goToHome">На главную</button>
+    <button v-on:click="goToHome">На главную</button>
   </div>
 </template>
 
